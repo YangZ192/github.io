@@ -41,12 +41,12 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .container {
-    max-width: 1000px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Or row for horizontal layout */
   }
   
-  .header, .section, footer {
-    width: 100%;
+  .header, .section {
+    flex: 1;
   }
 /* Section styling */
 .section {
