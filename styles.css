@@ -12,12 +12,13 @@ body {
 /* Header styling */
 .header {
     text-align: center;
-    padding: 60px 0; /* Increased padding for a larger banner */
-    background-color: #708297; /* New color */
+    padding: 60px 0;
+    background-color: #708297;
     color: #fff;
     border-radius: 5px;
-    max-width: 100%; /* Full width of body content */
-}
+    width: 100%; /* Set width to 100% to take full page width */
+    margin: 0 auto; /* Center the header horizontally */
+  }
 
 .header h1 {
     margin: 0;
